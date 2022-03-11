@@ -11,9 +11,15 @@ namespace AddressBookSystem_Day9
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book Program");
-           
+            // NewContact.contacts obj = new contacts();
+            // obj.addperson();
+            // UC2_AddNewContact.AddContact();
+            editpersonname edit = new editpersonname();
+            edit.editperson();
             Console.ReadLine();
         }
 
+        //private class contacts : NewContact.contacts
+       
     }
 }
